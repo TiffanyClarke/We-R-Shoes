@@ -1,0 +1,124 @@
+/*general*/
+header, main, footer {
+    margin: 3rem;
+}
+
+body {
+    background-color: #edfffc;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Notable', sans-serif;
+    line-height: 1.4;
+    color: #000;
+}
+
+p{
+    font-size: 0.75rem;
+    font-family: 'Slabo 27px', serif;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+   
+}
+
+footer {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p, i {
+    padding: 10px;
+}
+
+i {
+    font-size: 2.25rem;
+    color: #565656;
+}
+
+/*Caption font*/
+figcaption ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+
+/*styling main nav*/
+nav ul {
+    width: 25rem;   
+}
+
+nav ul li {
+    display: block;
+    color: #57A6B3;
+    margin: 0.25rem;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    color: #343434;
+    text-decoration: none;
+}
+
+dropdown list-item
+.dropdown {
+    position: relative;
+}
+
+/*hide nested list*/
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+/*dropdown hover nested list*/
+.dropdown:hover > ul {
+    display: block;
+}
+
+/*dropdown hover*/
+.dropdown:hover > a {
+    background-color: #343434;
+}
+
+.dropdown ul a {
+    display: block;
+    padding: 0.75rem;
+    background-color: #343434;
+    text-decoration: none;
+    margin-top:0;
+}
+
+.dropdown ul a:hover {
+    color: #fff;
+    background-color: #565656;
+}
+
+name, price {
+    font-size: 0.75rem;
+}
+
+/*Media Querys*/
+
+@media (min-width: 40rem) {
+
+    p {
+       font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    
+    nav ul li {
+        font-size: 1.5rem;
+        display: inline;
+    }
+}
+
+
+
